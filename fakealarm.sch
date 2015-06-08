@@ -16680,6 +16680,7 @@ general purpose rectifier, 1 A</description>
 <plain>
 <text x="154.94" y="22.86" size="3.81" layer="94">FAKE ALARM BLINKER</text>
 <text x="231.14" y="22.86" size="3.81" layer="94">R0.1</text>
+<text x="88.9" y="48.26" size="3.81" layer="97">NOTE: board designed for Hammond 1551Q</text>
 </plain>
 <instances>
 <instance part="IC1" gate="A" x="147.32" y="104.14"/>
