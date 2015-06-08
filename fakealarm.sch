@@ -16660,7 +16660,8 @@ general purpose rectifier, 1 A</description>
 <part name="R4" library="rcl" deviceset="R-US_" device="0207/10" value="100K"/>
 <part name="R5" library="rcl" deviceset="R-US_" device="0207/10" value="1K"/>
 <part name="C1" library="rcl" deviceset="CPOL-US" device="E2.5-6" value="33uF">
-<attribute name="VOLTAGE" value="25V"/>
+<attribute name="HEIGHT" value="10mm MAX"/>
+<attribute name="VOLTAGE" value="35V"/>
 </part>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="12V" device=""/>
 <part name="GND4" library="bt" deviceset="GND" device=""/>
@@ -16680,7 +16681,7 @@ general purpose rectifier, 1 A</description>
 <plain>
 <text x="154.94" y="22.86" size="3.81" layer="94">FAKE ALARM BLINKER</text>
 <text x="231.14" y="22.86" size="3.81" layer="94">R0.1</text>
-<text x="88.9" y="48.26" size="3.81" layer="97">NOTE: board designed for Hammond 1551Q</text>
+<text x="88.9" y="48.26" size="3.81" layer="97">NOTE: board designed for Hammond 1551P</text>
 </plain>
 <instances>
 <instance part="IC1" gate="A" x="147.32" y="104.14"/>
@@ -16692,6 +16693,7 @@ general purpose rectifier, 1 A</description>
 <instance part="R5" gate="G$1" x="154.94" y="129.54" rot="R270"/>
 <instance part="C1" gate="G$1" x="190.5" y="86.36">
 <attribute name="VOLTAGE" x="191.77" y="79.756" size="1.778" layer="96"/>
+<attribute name="HEIGHT" x="191.77" y="77.47" size="1.778" layer="96" display="both"/>
 </instance>
 <instance part="SUPPLY1" gate="G$1" x="109.22" y="144.78"/>
 <instance part="GND4" gate="1" x="109.22" y="66.04"/>
